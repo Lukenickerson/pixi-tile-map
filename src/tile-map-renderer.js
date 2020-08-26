@@ -12,7 +12,7 @@ const MAP_URL = './assets/map.json';
 const SPRITESHEET_URL = './assets/world-spritesheet.png';
 const SPRITE_SIZE = 16; // sprites are square
 const SPRITE_DIMS = Object.freeze({ x: SPRITE_SIZE, y: SPRITE_SIZE });
-const ZOOM_MULTIPLIER = -0.003;
+const ZOOM_MULTIPLIER = -0.0015;
 
 function makePixiApp(id = CONTAINER_ID) {
   const containerElt = document.getElementById(id);
