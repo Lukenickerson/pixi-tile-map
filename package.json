@@ -1,0 +1,32 @@
+{
+  "name": "pixi-tile-map",
+  "version": "0.1.0",
+  "description": "Exercise to build a small tile map renderer",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lukenickerson/pixi-tile-map.git"
+  },
+  "keywords": [
+    "pixi.js"
+  ],
+  "author": "Luke Nickerson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lukenickerson/pixi-tile-map/issues"
+  },
+  "homepage": "https://github.com/Lukenickerson/pixi-tile-map#readme",
+  "dependencies": {
+    "pixi.js": "^5.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
